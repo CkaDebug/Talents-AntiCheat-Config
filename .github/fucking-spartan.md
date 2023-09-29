@@ -68,4 +68,14 @@
 
 <img src="assets/spartan/ncp-test.png" align="center" id="header" width="1700">
 
-<img src="assets/spartan/matrix_test.png" align="center" id="header" width="1700">
+<img src="assets/spartan/matrix-test.png" align="center" id="header" width="1700">
+
+---
+
+## 最后，请您避免使用Spartan反作弊
+
+#### 你可能觉得我是为了黑Spartan而黑它，不论你怎么想都是对的，因为我只是把发生的事展现出来，剩下的由您自己决定。
+
+原帖连接https://www.spigotmc.org/threads/spartan-advanced-anti-cheat-cheat-detection-hack-blocker.162759/page-283
+
+使用你的小手往上翻翻就找到了本篇所有出现过的言论
