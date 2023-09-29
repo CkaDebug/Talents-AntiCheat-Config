@@ -9,6 +9,38 @@
 
 ---
 
-## 首先，从警告开始
+## 1.首先，从警告开始
+
+#### md_5质问为什么购买Spartan的人6个月后，仍然需要到第三方网站内，付费购买所谓的“软件保证”才能继续使用Spartan的完整检测？
 
 <img src="assets/spartan/1.png" align="center" id="header" width="700">
+
+## 2.虚假营销数据
+
+#### 这里被爆出Spartan的虚假营销，您Spartan的130_000台服务器的营销数据，是不是说明了您的用户人均>100台服务器
+
+<img src="assets/spartan/2.png" align="center" id="header" width="700">
+
+## 3.如同抖音的一流控评技术
+
+#### 您购买Spartan后如遇到问题需要退款，请先删除你客观的负面评论，不要影响我辛辛苦苦刷的SpigotMC好评
+
+<img src="assets/spartan/3.png" align="center" id="header" width="700">
+
+## 4.不允许你说Spartan的任何坏话
+
+#### 吐槽Spartan的垃圾订阅模式惨遭威胁
+
+<img src="assets/spartan/4.png" align="center" id="header" width="1700">
+
+## 5.Spartan的邮箱已被Google标记垃圾邮件
+
+#### 希望Spartan早日死去
+
+<img src="assets/spartan/5.png" align="center" id="header" width="700">
+
+## 6.2020年的Spartan用户对目前Spartan的评价
+
+#### 首先我花费了25€购买了插件，后续花费了37.5€的价格购买了Spartan Syn，但是在几个月后我又收到了Spartan的订阅过期邮件，要求我继续为Spartan的服务续费，这是老用户感到伤心的，尽管Spartan的支持很好，每次都能优先解决用户问题，但是收费模式令人心寒，不仅仅是老用户，更是新用户
+
+<img src="assets/spartan/6.png" align="center" id="header" width="1700">
