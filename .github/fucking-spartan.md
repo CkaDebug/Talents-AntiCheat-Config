@@ -44,3 +44,20 @@
 #### 首先我花费了25€购买了插件，后续花费了37.5€的价格购买了Spartan Syn，但是在几个月后我又收到了Spartan的订阅过期邮件，要求我继续为Spartan的服务续费，这是老用户感到伤心的，尽管Spartan的支持很好，每次都能优先解决用户问题，但是收费模式令人心寒，不仅仅是老用户，更是新用户
 
 <img src="assets/spartan/6.png" align="center" id="header" width="1700">
+
+## 7.最后知错就改
+
+#### Spartan syn现在免费提供给所有Spartan用户，这就是故事的终章了
+
+<img src="assets/spartan/7.png" align="center" id="header" width="1700">
+
+---
+## 可能你觉得，Spartan也没做错什么，只不过是做了个第三方额外收费项目
+
+#### 那么我现在告诉你，当你知道购买此插件后获得垃圾的检测和最糟糕的性能，你将还会这样想吗，Spartan是目前占用最高、检测最拉跨、最误判多的一款Minecraft反作弊
+
+## 来自YUM性能测试
+<img src="assets/spartan/1-test.png" align="center" id="header" width="1700">
+
+## 来自SparkMC性能测试
+<img src="assets/spartan/2-test.png" align="center" id="header" width="1700">
