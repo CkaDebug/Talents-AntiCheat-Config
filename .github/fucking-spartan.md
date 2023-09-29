@@ -56,7 +56,11 @@
 
 #### 那么我现在告诉你，当你知道购买此插件后获得垃圾的检测和最糟糕的性能，你将还会这样想吗，Spartan是目前占用最高、检测最拉跨、最误判多的一款Minecraft反作弊
 
-## 来自SparkMC性能测试
+## 来自SparkMC性能测试 
+
+### (全部非严谨测试，同配置3-5人占用)
+
+#### 仅供粗略参考，如果你有问题，欢迎携带严谨的测试数据殴打我
 
 <img src="assets/spartan/2-test.png" align="center" id="header" width="1700">
 
