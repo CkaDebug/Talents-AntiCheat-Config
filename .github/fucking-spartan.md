@@ -11,4 +11,4 @@
 
 ## 首先，从警告开始
 
-<img src=".github/assets/spartan/1.png" align="center" id="header" width="500">
+<img src="assets/spartan/1.png" align="center" id="header" width="500">
