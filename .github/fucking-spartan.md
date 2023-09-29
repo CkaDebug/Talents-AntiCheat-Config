@@ -67,3 +67,5 @@
 #### 其他反作弊测试
 
 <img src="assets/spartan/ncp-test.png" align="center" id="header" width="1700">
+
+<img src="assets/spartan/matrix_test.png" align="center" id="header" width="1700">
