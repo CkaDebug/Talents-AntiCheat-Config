@@ -13,7 +13,7 @@ relog-message: '请等待 %time_left% 秒后重新进入!'
 
 global_placeholder: 
   warn: "触发了检测模块"
-  k_c: "matrix kick"
+  k_c: "litebans:kick"
   k_m: "&c您被踢出服务器!"
   k_m_2: "%break%"
   k_m_3: "&7理由: &7&o"

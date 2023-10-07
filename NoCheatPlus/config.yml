@@ -1,5 +1,3 @@
-# 这是NocheatPlus配置-优化来自TalentsRC.
-# 其他配置地址https://github.com/TalentsDX/Talents-anticheat-config
 savebackconfig: true
 logging:
   active: true

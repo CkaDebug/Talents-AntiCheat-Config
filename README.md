@@ -33,6 +33,13 @@
 > QQ联系: 1957976089
 >
 > 邮箱联系我(Email) 1957976089@QQ.COM
+>
+>
+>
+> ---
+> 您需要使用最新版Protocollib和Litebans来使用本配置
+> 如果您不需要或者没有Litebans插件
+> 请自行替换掉配置里的Litebans:kick指令
 
 ---
 
@@ -100,7 +107,7 @@
 - [Themis](https://www.spigotmc.org/resources/themis-anti-cheat-1-17-1-18-1-19-bedrock-support-paper-compatibility-free-optimized.90766/)
 - [Hawk](https://github.com/HawkAnticheat/Hawk)
  ### 一些我会去配置但是我不保证它稳定性的反作弊配置
- （避免使用被作者抛弃的反作弊，因为它们只能检测远古特征）
+ （永远避免使用被作者抛弃的反作弊，因为它们只能检测远古特征）
 - [AAC](https://www.spigotmc.org/resources/aac-advanced-anti-cheat-hack-kill-aura-blocker.6442)
 - [TakaAC](https://www.spigotmc.org/resources/taka-anticheat-takaac-cheap-and-reliable-solution.45167/) 
 - [Horizon](https://www.spigotmc.org/resources/horizon-powerful-cheat-detection-in-new-era-1-8-1-12-1-13-1-14.65830/) 
