@@ -74,11 +74,11 @@
 - 独特的参数调配
 - 完全免费
 
-#### *在此我想对那些付费反作弊配置作者说一声：操你妈*
+#### *正确歧视任何付费反作弊配置*
 
-#### *没能力写反作弊才拿配置来圈钱你是真的没能力*
+#### *你以为随便调些垃圾就能随便糊弄人*
 
-#### *我随随便便拿脚写的配置都能殴打你的企业级反作弊配置*
+#### *写不了反作弊只能卖参数赚钱你多少有点可悲*
 
 ---
  
@@ -107,7 +107,7 @@
 - [Themis](https://www.spigotmc.org/resources/themis-anti-cheat-1-17-1-18-1-19-bedrock-support-paper-compatibility-free-optimized.90766/)
 - [Hawk](https://github.com/HawkAnticheat/Hawk)
  ### 一些我会去配置但是我不保证它稳定性的反作弊配置
- （永远避免使用被作者抛弃的反作弊，因为它们只能检测远古特征）
+ （永远避免使用被作者抛弃的反作弊，因为它们只能检测远古特征且没有维护）
 - [AAC](https://www.spigotmc.org/resources/aac-advanced-anti-cheat-hack-kill-aura-blocker.6442)
 - [TakaAC](https://www.spigotmc.org/resources/taka-anticheat-takaac-cheap-and-reliable-solution.45167/) 
 - [Horizon](https://www.spigotmc.org/resources/horizon-powerful-cheat-detection-in-new-era-1-8-1-12-1-13-1-14.65830/) 
