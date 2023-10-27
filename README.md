@@ -34,7 +34,7 @@
 >
 > 邮箱联系我(Email) 1957976089@QQ.COM
 >
->
+> 放心，有问题时找我问问题不会要你一分钱
 >
 > ---
 > 您需要使用最新版Protocollib和Litebans来使用本配置
@@ -61,6 +61,8 @@
 
 ##### [更新日志](https://github.com/CkaDebug/Talents-anticheat-config/blob/main/.github/update-log.md)
 
+##### 测试服地址：敬请期待...
+
 ---
 
 <div align="left">
@@ -74,7 +76,7 @@
 - 独特的参数调配
 - 完全免费
 
-#### *正确歧视任何付费反作弊配置*
+#### *歧视所有付费反作弊配置作者*
 
 #### *你以为随便调些垃圾就能随便糊弄人*
 
