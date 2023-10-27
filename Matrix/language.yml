@@ -33,13 +33,11 @@ global_placeholder:
   e_f: "鞘翅飞行"
   v_s: "载具加速"
   c_pr: '&d'
-  c_hr: '&c点击踢出'
+  c_hr: '&c谨慎处理'
   c_ba: '&8|%gp_c_pr%'
   c_hm: '%gp_c_pr%%version% 版本 %gp_c_ba% %ping% 延迟 %gp_c_ba% %tps% TPS %gp_c_ba% %component% %gp_c_ba% %gp_c_hr% %gp_c_ba%'
-  c_ck: '/matrix kick %gp_e_p%'
   c_n: '&a'
   c_w: '&e'
-  e_p: '%player%'
 
 
 commands:

@@ -91,10 +91,10 @@ killaura:
   commands:
     8: 
     - "matrix npc %player% 120"
-    20: "coc %player% if -ping-<60&-tps->19.5&-time_online->10000 do matrix notify &f%player% &7%gp_warn% &7(%gp_c_ka%) %gp_c_n%<20VL> -h %gp_c_hm% -c %gp_c_ck%"
-    30: "matrix notify &f%player% &7%gp_warn% &7(%gp_c_ka%) %gp_c_n%<30VL> -h %gp_c_hm% -c %gp_c_ck%"
-    40: "matrix notify &f%player% &7%gp_warn% &7(%gp_c_ka%) %gp_c_w%<40VL> -h %gp_c_hm% -c %gp_c_ck%"
-    48: "coc %player% if -ping-<60&-tps->19.5&-time_online->10000 do matrix notify &f%player% &7%gp_warn% &7(%gp_c_ka%) %gp_c_w%<44VL> -h %gp_c_hm% -c %gp_c_ck%"
+    20: "coc %player% if -ping-<60&-tps->19.5&-time_online->10000 do matrix notify &f%player% &7%gp_warn% &7(%gp_c_ka%) %gp_c_n%<20VL> -h %gp_c_hm% -c "
+    30: "matrix notify &f%player% &7%gp_warn% &7(%gp_c_ka%) %gp_c_n%<30VL> -h %gp_c_hm% -c "
+    40: "matrix notify &f%player% &7%gp_warn% &7(%gp_c_ka%) %gp_c_w%<40VL> -h %gp_c_hm% -c "
+    48: "coc %player% if -ping-<60&-tps->19.5&-time_online->10000 do matrix notify &f%player% &7%gp_warn% &7(%gp_c_ka%) %gp_c_w%<44VL> -h %gp_c_hm% -c "
     56: "coc %player% if -ping-<60&-tps->19.5&-time_online->10000 do %gp_k_c% %player% %gp_k_m%%gp_k_m_2%%gp_k_m_3%%gp_c_ka%%gp_k_m_4%"
     70: "%gp_k_c% %player% %gp_k_m%%gp_k_m_2%%gp_k_m_3%%gp_c_ka%%gp_k_m_4%"
 
@@ -134,11 +134,11 @@ hitbox:
 
   commands:
     5:
-      - "coc %player% if -ping-<60&-tps->19.5&-time_online->10000 do matrix notify &f%player% &7%gp_warn% &7(%gp_c_hb%) %gp_c_n%<5VL> -h %gp_c_hm% -c %gp_c_ck%"
+      - "coc %player% if -ping-<60&-tps->19.5&-time_online->10000 do matrix notify &f%player% &7%gp_warn% &7(%gp_c_hb%) %gp_c_n%<5VL> -h %gp_c_hm% -c "
       - "matrix npc %player% 120"
-    8: "matrix notify &f%player% &7%gp_warn% &7(%gp_c_hb%) %gp_c_n%<8VL> -h %gp_c_hm% -c %gp_c_ck%"
-    12: "coc %player% if -ping-<60&-tps->19.5&-time_online->10000 do matrix notify &f%player% &7%gp_warn% &7(%gp_c_hb%) %gp_c_e%<12VL> -h %gp_c_hm% -c %gp_c_ck%"
-    18: "matrix notify &f%player% &7%gp_warn% &7(%gp_c_hb%) %gp_c_e%<18VL> -h %gp_c_hm% -c %gp_c_ck%"
+    8: "matrix notify &f%player% &7%gp_warn% &7(%gp_c_hb%) %gp_c_n%<8VL> -h %gp_c_hm% -c "
+    12: "coc %player% if -ping-<60&-tps->19.5&-time_online->10000 do matrix notify &f%player% &7%gp_warn% &7(%gp_c_hb%) %gp_c_e%<12VL> -h %gp_c_hm% -c "
+    18: "matrix notify &f%player% &7%gp_warn% &7(%gp_c_hb%) %gp_c_e%<18VL> -h %gp_c_hm% -c "
     20: "coc %player% if -ping-<60&-tps->19.5&-time_online->10000 do %gp_k_c% %player% %gp_k_m%%gp_k_m_2%%gp_k_m_3%%gp_c_hb%%gp_k_m_4%"
     24: "%gp_k_c% %player% %gp_k_m%%gp_k_m_2%%gp_k_m_3%%gp_c_hb%%gp_k_m_4%"
 
@@ -192,10 +192,10 @@ move:
     amount: 50
 
   commands:
-    85: "coc %player% if -ping-<60&-tps->19.5&-time_online->10000 do matrix notify &f%player% &7%gp_warn% (%gp_m_s%) %gp_c_n%<85VL> -h %gp_c_hm% -c %gp_c_ck%"
-    100: "matrix notify &f%player% &7%gp_warn% (%gp_m_s%) %gp_c_n%<100VL> -h %gp_c_hm% -c %gp_c_ck%"
-    140: "coc %player% if -ping-<60&-tps->19.5&-time_online->10000 do matrix notify &f%player% &7%gp_warn% (%gp_m_s%) %gp_c_w%<140VL> -h %gp_c_hm% -c %gp_c_ck%"
-    160: "matrix notify &f%player% &7%gp_warn% (%gp_m_s%) %gp_c_w%<160VL> -h %gp_c_hm% -c %gp_c_ck%"
+    85: "coc %player% if -ping-<60&-tps->19.5&-time_online->10000 do matrix notify &f%player% &7%gp_warn% (%gp_m_s%) %gp_c_n%<85VL> -h %gp_c_hm% -c "
+    100: "matrix notify &f%player% &7%gp_warn% (%gp_m_s%) %gp_c_n%<100VL> -h %gp_c_hm% -c "
+    140: "coc %player% if -ping-<60&-tps->19.5&-time_online->10000 do matrix notify &f%player% &7%gp_warn% (%gp_m_s%) %gp_c_w%<140VL> -h %gp_c_hm% -c "
+    160: "matrix notify &f%player% &7%gp_warn% (%gp_m_s%) %gp_c_w%<160VL> -h %gp_c_hm% -c "
     180: "coc %player% if -ping-<60&-tps->19.5&-time_online->10000 do %gp_k_c% %player% %gp_k_m%%gp_k_m_2%%gp_k_m_3%%gp_m_s%%gp_k_m_4%"
     210: "%gp_k_c% %player% %gp_k_m%%gp_k_m_2%%gp_k_m_3%%gp_m_s%%gp_k_m_4%"
 
@@ -210,10 +210,10 @@ badpackets:
     amount: 25
 
   commands:
-    80: "coc %player% if -ping-<60&-tps->19.5&-time_online->10000 do matrix notify &f%player% &7%gp_warn% (%gp_b_p%) %gp_c_n%<80VL> -h %gp_c_hm% -c %gp_c_ck%"
-    120: "matrix notify &f%player% &7%gp_warn% (%gp_b_p%) %gp_c_n%<120VL> -h %gp_c_hm% -c %gp_c_ck%"
+    80: "coc %player% if -ping-<60&-tps->19.5&-time_online->10000 do matrix notify &f%player% &7%gp_warn% (%gp_b_p%) %gp_c_n%<80VL> -h %gp_c_hm% -c "
+    120: "matrix notify &f%player% &7%gp_warn% (%gp_b_p%) %gp_c_n%<120VL> -h %gp_c_hm% -c "
     160: "coc %player% if -ping-<60&-tps->19.5&-time_online->10000 do matrix notify &f%player% &7%gp_warn% (%gp_b_p%) %gp_c_w%<160VL> -h %gp_c_hm%"
-    180: "matrix notify &f%player% &7%gp_warn% (%gp_b_p%) %gp_c_w%<180VL> -h %gp_c_hm% -c %gp_c_ck%"
+    180: "matrix notify &f%player% &7%gp_warn% (%gp_b_p%) %gp_c_w%<180VL> -h %gp_c_hm% -c "
     200: "coc %player% if -ping-<60&-tps->19.5&-time_online->10000 do %gp_k_c% %player% %gp_k_m%%gp_k_m_2%%gp_k_m_3%%gp_b_p%%gp_k_m_4%"
     250: "%gp_k_c% %player% %gp_k_m%%gp_k_m_2%%gp_k_m_3%%gp_b_p%%gp_k_m_4%"
 
@@ -236,8 +236,8 @@ delay:
     amount: 2
 
   commands:
-    2: "matrix notify &f%player% &7%gp_warn% (%gp_d_a%) %gp_c_n%<2VL> -h %gp_c_hm% -c %gp_c_ck%"
-    4: "matrix notify &f%player% &7%gp_warn% (%gp_d_a%) %gp_c_w%<4VL> -h %gp_c_hm% -c %gp_c_ck%"
+    2: "matrix notify &f%player% &7%gp_warn% (%gp_d_a%) %gp_c_n%<2VL> -h %gp_c_hm% -c "
+    4: "matrix notify &f%player% &7%gp_warn% (%gp_d_a%) %gp_c_w%<4VL> -h %gp_c_hm% -c "
 
 #方块检测
 block:
@@ -265,10 +265,10 @@ block:
     amount: 8
 
   commands:
-    4: "coc %player% if -ping-<60&-tps->19.5&-time_online->10000 do matrix notify &f%player% &7%gp_warn% &7(%gp_b_i%) %gp_c_n%<4VL> -h %gp_c_hm% -c %gp_c_ck%"
-    8: "matrix notify &f%player% &7%gp_warn% &7(%gp_b_i%) %gp_c_n%<8VL> -h %gp_c_hm% -c %gp_c_ck%"
-    12: "coc %player% if -ping-<60&-tps->19.5&-time_online->10000 do matrix notify &f%player% &7%gp_warn% &7(%gp_b_i%) %gp_c_w%<12VL> -h %gp_c_hm% -c %gp_c_ck%"
-    16: "matrix notify &f%player% &7%gp_warn% &7(%gp_b_i%) %gp_c_w%<16VL> -h %gp_c_hm% -c %gp_c_ck%"
+    4: "coc %player% if -ping-<60&-tps->19.5&-time_online->10000 do matrix notify &f%player% &7%gp_warn% &7(%gp_b_i%) %gp_c_n%<4VL> -h %gp_c_hm% -c "
+    8: "matrix notify &f%player% &7%gp_warn% &7(%gp_b_i%) %gp_c_n%<8VL> -h %gp_c_hm% -c "
+    12: "coc %player% if -ping-<60&-tps->19.5&-time_online->10000 do matrix notify &f%player% &7%gp_warn% &7(%gp_b_i%) %gp_c_w%<12VL> -h %gp_c_hm% -c "
+    16: "matrix notify &f%player% &7%gp_warn% &7(%gp_b_i%) %gp_c_w%<16VL> -h %gp_c_hm% -c "
     20: "coc %player% if -ping-<60&-tps->19.5&-time_online->10000 do %gp_k_c% %player% %gp_k_m%%gp_k_m_2%%gp_k_m_3%%gp_b_i%%gp_k_m_4%"
     24: "%gp_k_c% %player% %gp_k_m%%gp_k_m_2%%gp_k_m_3%%gp_b_i%%gp_k_m_4%"
 
@@ -305,10 +305,10 @@ scaffold:
     amount: 6
 
   commands:
-    10: "coc %player% if -ping-<60&-tps->19.5&-time_online->10000 do matrix notify &f%player% &7%gp_warn% &7(%gp_s_f%) %gp_c_n%<10VL> -h %gp_c_hm% -c %gp_c_ck%"
-    14: "matrix notify &f%player% &7%gp_warn% &7(%gp_s_f%) %gp_c_n%<14VL> -h %gp_c_hm% -c %gp_c_ck%"
-    20: "coc %player% if -ping-<60&-tps->19.5&-time_online->10000 do matrix notify &f%player% &7%gp_warn% &7(%gp_s_f%) %gp_c_w%<20VL> -h %gp_c_hm% -c %gp_c_ck%"
-    28: "matrix notify &f%player% &7%gp_warn% &7(%gp_s_f%) %gp_c_w%<28VL> -h %gp_c_hm% -c %gp_c_ck%"
+    10: "coc %player% if -ping-<60&-tps->19.5&-time_online->10000 do matrix notify &f%player% &7%gp_warn% &7(%gp_s_f%) %gp_c_n%<10VL> -h %gp_c_hm% -c "
+    14: "matrix notify &f%player% &7%gp_warn% &7(%gp_s_f%) %gp_c_n%<14VL> -h %gp_c_hm% -c "
+    20: "coc %player% if -ping-<60&-tps->19.5&-time_online->10000 do matrix notify &f%player% &7%gp_warn% &7(%gp_s_f%) %gp_c_w%<20VL> -h %gp_c_hm% -c "
+    28: "matrix notify &f%player% &7%gp_warn% &7(%gp_s_f%) %gp_c_w%<28VL> -h %gp_c_hm% -c "
     30: "coc %player% if -ping-<60&-tps->19.5&-time_online->10000 do %gp_k_c% %player% %gp_k_m%%gp_k_m_2%%gp_k_m_3%%gp_s_f%%gp_k_m_4%"
     36: "%gp_k_c% %player% %gp_k_m%%gp_k_m_2%%gp_k_m_3%%gp_s_f%%gp_k_m_4%"
 
@@ -326,10 +326,10 @@ jesus:
     amount: 10
 
   commands:
-    15: "coc %player% if -ping-<60&-tps->19.5&-time_online->10000 do matrix notify &f%player% &7%gp_warn% &7(%gp_w_w%) %gp_c_n%<15VL> -h %gp_c_hm% -c %gp_c_ck%"
-    20: "matrix notify &f%player% &7%gp_warn% &7(%gp_w_w%) %gp_c_n%<20VL> -h %gp_c_hm% -c %gp_c_ck%"
-    25: "coc %player% if -ping-<60&-tps->19.5&-time_online->10000 do matrix notify &f%player% &7%gp_warn% &7(%gp_w_w%) %gp_c_w%<25VL> -h %gp_c_hm% -c %gp_c_ck%"
-    30: "matrix notify &f%player% &7%gp_warn% &7(%gp_w_w%) %gp_c_w%<30VL> -h %gp_c_hm% -c %gp_c_ck%"
+    15: "coc %player% if -ping-<60&-tps->19.5&-time_online->10000 do matrix notify &f%player% &7%gp_warn% &7(%gp_w_w%) %gp_c_n%<15VL> -h %gp_c_hm% -c "
+    20: "matrix notify &f%player% &7%gp_warn% &7(%gp_w_w%) %gp_c_n%<20VL> -h %gp_c_hm% -c "
+    25: "coc %player% if -ping-<60&-tps->19.5&-time_online->10000 do matrix notify &f%player% &7%gp_warn% &7(%gp_w_w%) %gp_c_w%<25VL> -h %gp_c_hm% -c "
+    30: "matrix notify &f%player% &7%gp_warn% &7(%gp_w_w%) %gp_c_w%<30VL> -h %gp_c_hm% -c "
     35: "coc %player% if -ping-<60&-tps->19.5&-time_online->10000 do %gp_k_c% %player% %gp_k_m%%gp_k_m_2%%gp_k_m_3%%gp_w_w%%gp_k_m_4%"
     45: "%gp_k_c% %player% %gp_k_m%%gp_k_m_2%%gp_k_m_3%%gp_w_w%%gp_k_m_4%"
 
@@ -351,10 +351,10 @@ velocity:
     amount: 3
 
   commands:
-    10: "coc %player% if -ping-<60&-tps->19.5&-time_online->10000 do matrix notify &f%player% &7%gp_warn% &7(%gp_a_kb%) %gp_c_n%<10VL> -h %gp_c_hm% -c %gp_c_ck%"
-    15: "matrix notify &f%player% &7%gp_warn% &7(%gp_a_kb%) %gp_c_n%<15VL> -h %gp_c_hm% -c %gp_c_ck%"
-    20: "coc %player% if -ping-<60&-tps->19.5&-time_online->10000 do matrix notify &f%player% &7%gp_warn% &7(%gp_a_kb%) %gp_c_w%<20VL> -h %gp_c_hm% -c %gp_c_ck%"
-    25: "matrix notify &f%player% &7%gp_warn% &7(%gp_a_kb%) %gp_c_w%<25VL> -h %gp_c_hm% -c %gp_c_ck%"
+    10: "coc %player% if -ping-<60&-tps->19.5&-time_online->10000 do matrix notify &f%player% &7%gp_warn% &7(%gp_a_kb%) %gp_c_n%<10VL> -h %gp_c_hm% -c "
+    15: "matrix notify &f%player% &7%gp_warn% &7(%gp_a_kb%) %gp_c_n%<15VL> -h %gp_c_hm% -c "
+    20: "coc %player% if -ping-<60&-tps->19.5&-time_online->10000 do matrix notify &f%player% &7%gp_warn% &7(%gp_a_kb%) %gp_c_w%<20VL> -h %gp_c_hm% -c "
+    25: "matrix notify &f%player% &7%gp_warn% &7(%gp_a_kb%) %gp_c_w%<25VL> -h %gp_c_hm% -c "
     30: "coc %player% if -ping-<60&-tps->19.5&-time_online->10000 do %gp_k_c% %player% %gp_k_m%%gp_k_m_2%%gp_k_m_3%%gp_a_kb%%gp_k_m_4%"
     40: "%gp_k_c% %player% %gp_k_m%%gp_k_m_2%%gp_k_m_3%%gp_a_kb%%gp_k_m_4%"
 
@@ -371,7 +371,7 @@ chat:
     amount: 5
 
   commands:
-    4: "matrix notify &f%player% &7%gp_warn% &7(%gp_c_s%) -h %gp_c_hm% -c %gp_c_ck%"
+    4: "matrix notify &f%player% &7%gp_warn% &7(%gp_c_s%) -h %gp_c_hm% -c "
     10: "%gp_k_c% %player% %gp_k_m%%gp_k_m_2%%gp_k_m_3%%gp_c_s%%gp_k_m_4%"
 
 #点击检测
@@ -392,8 +392,8 @@ interact:
     amount: 5
 
   commands:
-    10: "matrix notify &f%player% &7%gp_warn% &7(%gp_h_i%) %gp_c_n%<10VL> -h %gp_c_hm% -c %gp_c_ck%"
-    20: "matrix notify &f%player% &7%gp_warn% &7(%gp_h_i%) %gp_c_w%<20VL> -h %gp_c_hm% -c %gp_c_ck%"
+    10: "matrix notify &f%player% &7%gp_warn% &7(%gp_h_i%) %gp_c_n%<10VL> -h %gp_c_hm% -c "
+    20: "matrix notify &f%player% &7%gp_warn% &7(%gp_h_i%) %gp_c_w%<20VL> -h %gp_c_hm% -c "
     30: "%gp_k_c% %player% %gp_k_m%%gp_k_m_2%%gp_k_m_3%%gp_h_i%%gp_k_m_4%"
 
 #穿墙检测
@@ -412,10 +412,10 @@ phase:
     amount: 10
 
   commands:
-    3: "coc %player% if -ping-<60&-tps->19.5&-time_online->10000 do matrix notify &f%player% &7%gp_warn% &7(%gp_m_p%) %gp_c_n%<3VL> -h %gp_c_hm% -c %gp_c_ck%"
-    6: "matrix notify &f%player% &7%gp_warn% &7(%gp_m_p%) %gp_c_n%<6VL> -h %gp_c_hm% -c %gp_c_ck%"
-    9: "coc %player% if -ping-<60&-tps->19.5&-time_online->10000 do matrix notify &f%player% &7%gp_warn% &7(%gp_m_p%) %gp_c_w%<9VL> -h %gp_c_hm% -c %gp_c_ck%"
-    12: "matrix notify &f%player% &7%gp_warn% &7(%gp_m_p%) %gp_c_w%<12VL> -h %gp_c_hm% -c %gp_c_ck%"
+    3: "coc %player% if -ping-<60&-tps->19.5&-time_online->10000 do matrix notify &f%player% &7%gp_warn% &7(%gp_m_p%) %gp_c_n%<3VL> -h %gp_c_hm% -c "
+    6: "matrix notify &f%player% &7%gp_warn% &7(%gp_m_p%) %gp_c_n%<6VL> -h %gp_c_hm% -c "
+    9: "coc %player% if -ping-<60&-tps->19.5&-time_online->10000 do matrix notify &f%player% &7%gp_warn% &7(%gp_m_p%) %gp_c_w%<9VL> -h %gp_c_hm% -c "
+    12: "matrix notify &f%player% &7%gp_warn% &7(%gp_m_p%) %gp_c_w%<12VL> -h %gp_c_hm% -c "
     16: "coc %player% if -ping-<60&-tps->19.5&-time_online->10000 do %gp_k_c% %player% %gp_k_m%%gp_k_m_2%%gp_k_m_3%%gp_m_p%%gp_k_m_4%"
     18: "%gp_k_c% %player% %gp_k_m%%gp_k_m_2%%gp_k_m_3%%gp_m_p%%gp_k_m_4%"
 
@@ -448,8 +448,8 @@ elytra:
     amount: 15
 
   commands:
-    45: "matrix notify &f%player% &7%gp_warn% &7(%gp_e_f%) %gp_c_n%<45VL> -h %gp_c_hm% -c %gp_c_ck%"
-    60: "matrix notify &f%player% &7%gp_warn% &7(%gp_e_f%) %gp_c_w%<60VL> -h %gp_c_hm% -c %gp_c_ck%"
+    45: "matrix notify &f%player% &7%gp_warn% &7(%gp_e_f%) %gp_c_n%<45VL> -h %gp_c_hm% -c "
+    60: "matrix notify &f%player% &7%gp_warn% &7(%gp_e_f%) %gp_c_w%<60VL> -h %gp_c_hm% -c "
     85: "%gp_k_c% %player% %gp_k_m%%gp_k_m_2%%gp_k_m_3%%gp_e_f%%gp_k_m_4%"
 
 #载具检测
@@ -476,6 +476,6 @@ vehicle:
     amount: 5
 
   commands:
-    2: "matrix notify &f%player% &7%gp_warn% &7(%gp_v_s%) %gp_c_n%<2VL> -h %gp_c_hm% -c %gp_c_ck%"
-    4: "matrix notify &f%player% &7%gp_warn% &7(%gp_v_s%) %gp_c_w%<4VL> -h %gp_c_hm% -c %gp_c_ck%"
+    2: "matrix notify &f%player% &7%gp_warn% &7(%gp_v_s%) %gp_c_n%<2VL> -h %gp_c_hm% -c "
+    4: "matrix notify &f%player% &7%gp_warn% &7(%gp_v_s%) %gp_c_w%<4VL> -h %gp_c_hm% -c "
     8: "%gp_k_c% %player% %gp_k_m%%gp_k_m_2%%gp_k_m_3%%gp_v_s%%gp_k_m_4%"
