@@ -374,6 +374,7 @@ chat:
     4: "matrix notify &f%player% &7%gp_warn% &7(%gp_c_s%) -h %gp_c_hm% -c %gp_c_ck%"
     10: "%gp_k_c% %player% %gp_k_m%%gp_k_m_2%%gp_k_m_3%%gp_c_s%%gp_k_m_4%"
 
+#点击检测
 interact:
   enable: true
   # mode v1 老版本
