@@ -90,7 +90,7 @@
 - 语言修改 *（改进反作弊的消息提示）*
 <img src=".github/assets/vulcantest.png" width="450">
 <img src=".github/assets/ncptest.png" width="450">
-<img src=".github/assets/matrixtest.png" width="450">
+<img src=".github/assets/matrixtest1.png" width="450">
 <img src=".github/assets/kick.png" width="450">
 
 ---
