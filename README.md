@@ -61,7 +61,9 @@
 
 ##### [更新日志](https://github.com/CkaDebug/Talents-anticheat-config/blob/main/.github/update-log.md)
 
-##### 测试服地址：敬请期待...
+##### 测试服地址：test.breeze.asia(1.8.9)
+
+#### 感谢Dreeam-qwq大佬提供
 
 ---
 
