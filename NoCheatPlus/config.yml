@@ -388,11 +388,11 @@ checks:
     angle:
       active: default
       threshold:
-        average_move: 20
+        average_move: 77
         average_time: 110
-        average_yaw: 0
+        average_yaw: 22
         average_switch: 0
-      actions: cancel vl>100 log:angle:6:5:i cancel vl>800 log:angle:0:20:if cancel
+      actions: cancel vl>100 log:angle:6:5:i cancel vl>350 log:angle:0:20:if cancel cmdc:kickangle:0:15
     critical:
       active: default
       falldistance: 0.075
@@ -430,18 +430,18 @@ checks:
       actions: cancel vl>2 cancel vl>10 log:noswing:2:5:i cancel
     reach:
       active: default
-      survivaldistance: 2.5
+      survivaldistance: 3.31
       penalty: 10
       reduce: true
       precision: true
-      reducedistance: 1.2
+      reducedistance: 1.1
       reducestep: 0.14
       improbable:
         feedonly: true
         weight: 2.0
       actions:
         cancel vl>1 cancel log:freach:8:9:i vl>5 cancel log:freach:2:6:i vl>12
-        cancel log:freachhighvl:1:5:if vl>35 cancel log:freachhighvl:0:5:if cmdc:kicksuspiciouscombat:2:1
+        cancel log:freachhighvl:1:5:if vl>20 cancel log:freachhighvl:0:5:if cmdc:kicksuspiciouscombat:2:1
     selfhit:
       active: default
       actions: cancel log:fselfhit:0:5:icf cmdc:kickselfhit:0:5
@@ -449,8 +449,7 @@ checks:
       active: default
       limit: 24
       actions:
-        cancel vl>10 cancel log:fspeed:2:5:i vl>60 cancel log:fspeed:0:5:if
-        cmdc:kickattackfrequency:0:10
+        cancel vl>10 cancel log:fspeed:2:5:i vl>60 cancel log:fspeed:0:5:if cmdc:kickattackfrequency:0:10
       shortterm:
         ticks: 7
         limit: 24
@@ -654,7 +653,7 @@ checks:
         voidtovoid: true
       actions:
         cancel log:flyfile:6:15:f vl>100 cancel log:survivalfly:10:11:i log:flyfile:6:15:f
-        vl>700 cancel log:survivalfly:8:5:i log:flyfile:1:3:f vl>2100 cancel log:survivalflyhighvl:0:4:icf
+        vl>700 cancel log:survivalfly:8:5:i log:flyfile:1:3:f vl>800 cancel log:survivalflyhighvl:0:4:icf
         cmd:clearsf:0:15 cmdc:kickfly:0:15
       hover:
         active: true
@@ -802,6 +801,8 @@ strings:
     "&c[player]&7 触发检测 &c[check]&7: 试图边移动边修改库存里的物品 (Tags: &6[tags]&7)
     &7(&cVL[violations]&7)"
   keepalive: "&c[player]&7 触发检测 &c[check]&7: 正在向服务器发送心跳包以保持在线状态 &7(&cVL[violations]&7)"
+  kickangle: ncp kick [player] &c&l(!)&7 奇怪的攻击方式
+  kickfightreach: ncp kick [player] &c&l(!)&7 异常的攻击距离
   kickagainst: ncp kick [player] &c&l(!)&7 无效的方块放置。
   kickalive: ncp kick [player] &c&l(!)&7 保持活动状态的心跳包过多。
   kickattackfrequency: ncp kick [player] &c&l(!)&7 不太可能存在的快速点击。
