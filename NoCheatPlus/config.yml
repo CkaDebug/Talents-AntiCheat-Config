@@ -118,7 +118,7 @@ checks:
       intervalsurvival: 100
       grace: 1200
       actions:
-        cancel vl>6 cancel log:fastbreak:4:2:i vl>50 cancel log:fastbreak:0:2:if
+        cancel vl>6 cancel log:fastbreak:4:2:i vl>20 cancel log:fastbreak:0:2:if
         cmdc:kickfastbreak:2:5
     frequency:
       active: default
@@ -440,8 +440,8 @@ checks:
         feedonly: true
         weight: 2.0
       actions:
-        cancel vl>1 cancel log:freach:8:9:i vl>5 cancel log:freach:2:6:i vl>12
-        cancel log:freachhighvl:1:5:if vl>20 cancel log:freachhighvl:0:5:if cmdc:kicksuspiciouscombat:2:1
+        cancel vl>2 cancel log:freach:8:9:i vl>5 cancel log:freach:2:6:i vl>4
+        cancel log:freachhighvl:1:5:if vl>8 cancel log:freachhighvl:0:5:if cmdc:kicksuspiciouscombat:2:1
     selfhit:
       active: default
       actions: cancel log:fselfhit:0:5:icf cmdc:kickselfhit:0:5
@@ -597,8 +597,8 @@ checks:
       active: default
       dealdamage: true
       skipallowflight: true
-      resetonviolation: false
-      resetonteleport: false
+      resetonviolation: true
+      resetonteleport: true
       resetonvehicle: true
       anticriticals: true
       actions: cancel vl>2 cancel log:nofall:0:5:if
@@ -829,7 +829,7 @@ strings:
   kickimprobable: ncp kick [player] &c&l(!)&7 非法客户端修改。
   kickinvaliddata: ncp kick [player] &c&l(!)&7 无效的书本数据。
   kickpacketfrequency: ncp kick [player] &c&l(!)&7 数据包过多。
-  kickpackets: ncp kick [player] &c&l(!)&7 你发送了太多的动作（极度滞后?）
+  kickpackets: ncp kick [player] &c&l(!)&7 你发送了太多的动作（极度滞后）
   kickscaffold: ncp kick [player] &c&l(!)&7 不自然的方块放置。
   kickselfhit: ncp kick [player] &c&l(!)&7 你试图打自己!
   kicksuspiciouscombat: ncp kick [player] &c&l(!)&7 非法客户端修改。
