@@ -118,6 +118,7 @@
 - [KauriAC](https://www.spigotmc.org/resources/kauri-anticheat-best-in-class-performance-destroy-cheaters-1-7-10-1-18-1.53721/)
 - [Spartan](https://www.spigotmc.org/resources/spartan-advanced-anti-cheat-cheat-detection-hack-blocker-1-7-1-19-2-10-summer-sale.25638) 💀[一些猛料](https://github.com/CkaDebug/Talents-anticheat-config/blob/main/.github/fucking-spartan.md)💀
 - [AntiCheatReloaded](https://www.spigotmc.org/resources/anticheatreloaded.23799/)
+- [Negativityv2](https://www.spigotmc.org/resources/negativity-v2-1-8-to-1-20-bungee-velocity-sponge-fabric-minestom.86874/) 不要使用，存在crash！
  
 ---
 
