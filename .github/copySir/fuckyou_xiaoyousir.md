@@ -84,7 +84,7 @@
 
 <img src="Matrix.png" align="center" id="header" width=" 1500">
 
-<img src="MatrixConfig.png" align="center" id="header" width=" 1500">
+<img src="MatrixCfg.png" align="center" id="header" width=" 1500">
 
 <img src="MatrixCheck.png" align="center" id="header" width=" 1500">
 
