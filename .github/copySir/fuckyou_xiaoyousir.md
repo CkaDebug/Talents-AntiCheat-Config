@@ -66,11 +66,11 @@
 
 ## 这不用说了，请各位自己看吧.
 
-<img src="matrix.png" align="center" id="header" width=" 1500">
+<img src="Matrix.png" align="center" id="header" width=" 1500">
 
-<img src="matrixcfg.png" align="center" id="header" width=" 1500">
+<img src="MatrixConfig.png" align="center" id="header" width=" 1500">
 
-<img src="matrixcheck.png" align="center" id="header" width=" 1500">
+<img src="MatrixCheck.png" align="center" id="header" width=" 1500">
 
 Matrix大部分全都用我的且没有标明，而是直接自称是自己原创配置
 
