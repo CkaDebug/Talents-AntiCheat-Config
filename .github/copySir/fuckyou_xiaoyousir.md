@@ -24,5 +24,5 @@
 
 ## 先来看看主页
 
-<img src="github.png" align="center" id="header" width="500">
+<img src="github.png" align="center" id="header" width=" 1500">
 
