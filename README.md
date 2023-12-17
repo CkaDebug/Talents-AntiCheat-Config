@@ -110,7 +110,8 @@
 最终，你仍然需要这些反作弊插件来使用配置
 
 - [Matrix](https://matrix.rip) 
-- [NocheatPlus](https://github.com/Updated-NoCheatPlus/NoCheatPlus) [Winds团队魔改版本](https://github.com/Winds-Studio/NoCheatPlus)
+- [NocheatPlus](https://github.com/Updated-NoCheatPlus/NoCheatPlus)
+- [NocheatPlus-Dreeam](https://github.com/Winds-Studio/NoCheatPlus)(性能优化版本)
 - [GrimAC](https://grim.ac)
 - [AntiAura](https://www.spigotmc.org/resources/antiaura-%C2%BB-reliable-cheat-detection-%C2%BB-anti-cheat-plugin.1368/update?update=16048)
 - [Vulcan](https://www.spigotmc.org/resources/vulcan-anti-cheat-advanced-cheat-detection-1-7-1-19.83626/) *不推荐*
