@@ -32,7 +32,7 @@ disabled_components:
   - 'example entry'
 
 custom_vl_weight:
-  - 'bp.timer:1'
+  - 'bp.timer:2'
   - 'move.invmove:1'
   - 'move.vert:5'
   - 'move.hor:1'
