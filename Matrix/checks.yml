@@ -29,7 +29,7 @@ killaura:
 
     aimbot:
       vl_weight: 10
-      cancel_hit: false
+      cancel_hit: true
 
       check_aimbot_sync: true
       check_aimbot_shake: true
@@ -60,7 +60,7 @@ killaura:
         hit_bot_add: 150
 
       movement:
-        distance_base: 1.4
+        distance_base: 2.3
         distance_random_size: 1.23
         distance_attack_base: 3.1
         move_up_after_attack: false
@@ -69,12 +69,12 @@ killaura:
       enable: true
 
       vl_weight: 25
-      cancel_attack: false
+      cancel_attack: true
 
     strafe:
       enable: true
       vl_weight: 8
-      cancel_move: false
+      cancel_move: true
 
     combine:
       aimbot_with_reach:
@@ -401,7 +401,7 @@ phase:
   enable: true
   #触发此检测应该冻结玩家多久？
   #出现问题改回默认值（400）
-  freeze_time: 100
+  freeze_time: 110
 
   cancel_vl: 3
 
