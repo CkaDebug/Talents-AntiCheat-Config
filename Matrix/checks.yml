@@ -6,7 +6,7 @@ killaura:
     flaw:
       type_a:
         enable: true
-        vl: 3
+        vl: 5
       type_b:
         enable: true
         vl: 10
@@ -22,10 +22,10 @@ killaura:
     rotation:
       type_a:
         enable: true
-        vl: 2
+        vl: 7
       type_b:
         enable: true
-        vl: 2
+        vl: 7
 
     aimbot:
       vl_weight: 10
@@ -60,10 +60,11 @@ killaura:
         hit_bot_add: 150
 
       movement:
-        distance_base: 2.3
+        distance_base: 2.8
         distance_random_size: 1.23
         distance_attack_base: 3.1
         move_up_after_attack: false
+        max_speed: 0.33
 
     critical:
       enable: true
@@ -111,22 +112,20 @@ hitbox:
   #  3. cancel -  取消攻击
   cancel_way: silent
 
-  packet_based: false
-
   cancel_vl: 5
 
   vl_weights:
-    miss_player_hitbox: 2
+    miss_player_hitbox: 4
     reach_target_standing: 10
-    reach_target_moving: 3
+    reach_target_moving: 4
 
   dynamic_vl:
     enable: true
     expander: 10
     min_vl: 5
-    max_vl: 19
+    max_vl: 24
 
-  max_burst_vl: 10
+  max_burst_vl: 24
 
   decay:
     interval: 15
@@ -148,7 +147,7 @@ click:
 
   max_cps: 20
 
-  check_cps: false
+  check_cps: true
   check_swing: true
   check_timing: true
 
@@ -437,20 +436,19 @@ elytra:
   enable: true
 
   force_setback: false
-  #除非你服误判低
-  #↓否则不要开启回弹惹怒玩家↓
-  setback_vl: -1
 
-  unequip_vl: -1
+  setback_vl: 45
+
+  unequip_vl: 45
 
   decay:
     interval: 15
     amount: 15
 
   commands:
-    45: "matrix notify &f%player% &7%gp_warn% &7(%gp_e_f%) %gp_c_n%<45VL> -h %gp_c_hm% -c "
-    60: "matrix notify &f%player% &7%gp_warn% &7(%gp_e_f%) %gp_c_w%<60VL> -h %gp_c_hm% -c "
-    85: "%gp_k_c% %player% %gp_k_m%%gp_k_m_2%%gp_k_m_3%%gp_e_f%%gp_k_m_4%"
+    25: "matrix notify &f%player% &7%gp_warn% &7(%gp_e_f%) %gp_c_n%<45VL> -h %gp_c_hm% -c "
+    45: "matrix notify &f%player% &7%gp_warn% &7(%gp_e_f%) %gp_c_w%<60VL> -h %gp_c_hm% -c "
+    70: "%gp_k_c% %player% %gp_k_m%%gp_k_m_2%%gp_k_m_3%%gp_e_f%%gp_k_m_4%"
 
 #载具检测
 vehicle:

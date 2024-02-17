@@ -27,7 +27,7 @@ delete_time: 30
 disable_bypass_permission: true
 
 relog_time: 0
-#disabled_components已被弃用
+#disabled_components似乎已被弃用
 disabled_components:
   - 'example entry'
 

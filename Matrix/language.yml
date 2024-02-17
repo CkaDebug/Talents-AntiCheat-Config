@@ -2,7 +2,7 @@
 prefix: '&bMatrix &f» '
 
 kick-format: '玩家 %player% 出现异常行为被强制踢出服务器!'
-
+#踢出广播开关
 kick-broadcast: true
 
 spam-warning: '你不能如此快的发送聊天信息!'
