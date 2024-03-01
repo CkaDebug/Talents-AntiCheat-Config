@@ -14,7 +14,7 @@
 >
 > ## 👇一些使用我配置并出售倒卖且声称是自己原创的窝囊废们👇
 >
-> [640597446](https://github.com/CkaDebug/Talents-anticheat-config/blob/main/.github/copySir/fuckyou_xiaoyousir.md)
+> [640597446](https://postyizhan.github.io/lezi-wiki/article/%E5%B0%8F%E5%8F%8B%E8%80%81%E5%B8%88)
 > 
 >
 > ---
