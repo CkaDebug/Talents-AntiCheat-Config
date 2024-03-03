@@ -16,7 +16,7 @@ Punishments:
       - "NoFall"
     commands:
       - "100:40 [alert]"
-      - "400:100 Litebans:kick %player% &4&l非法客户端修改!"
+      - "250:100 Litebans:kick %player% &4&l非法客户端修改!"
   Knockback:
     remove-violations-after: 60
     checks:
@@ -24,7 +24,7 @@ Punishments:
       - "Explosion"
     commands:
       - "5:5 [alert]"
-      - "20:20 Litebans:kick %player% &4&l非法客户端修改!"
+      - "15:20 Litebans:kick %player% &4&l非法客户端修改!"
   Post:
     remove-violations-after: 60
     checks:
@@ -46,7 +46,7 @@ Punishments:
       - "Reach"
     commands:
       - "5:5 [alert]"
-      - "25:5 Litebans:kick %player% &4&l非法客户端修改!"
+      - "10:5 Litebans:kick %player% &4&l非法客户端修改!"
   Misc:
     remove-violations-after: 60
     checks:

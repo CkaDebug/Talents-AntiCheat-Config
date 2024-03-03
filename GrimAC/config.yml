@@ -104,6 +104,7 @@ TimerA:
   # 玩家卡顿时可以累积以供以后使用的毫秒数
   # 如果设置得太高，可能会允许 1.8 快速使用/快速治疗/快速弓箭绕过，120 毫秒似乎是一个很好的平衡
   drift: 120
+  ping-abuse-limit-threshold: 1000
 
 NegativeTimer:
   # Number of milliseconds lost while moving before we should start flagging
@@ -122,7 +123,7 @@ Reach:
   #
   # 在 1.9-1.18.1（不是 1.18.2）或某些客户端/服务器组合中存在 0.03 距离的增加，因为
   # 协议更改和限制。 对于 1.8 服务器上的 1.7/1.8 客户端，此检查功能最为强大。
-  threshold: 0.002
+  threshold: 0.0044
   # 我们应该取消我们知道不可能的命中吗？
   # 3.00-3.03 命中可能会通过，但仍会被标记，因为数据包顺序限制
   block-impossible-hits: true
