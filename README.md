@@ -2,13 +2,12 @@
 
 ### 在此之前，请先看看我向您推荐的优秀项目
 
-<img src="leaf_logo.png" alt="Leaf logo" align="right" width="200">
+<img src="leaf_banner.png" alt="Leaf">
 <div align="center">
-
-## [Leaf](https://github.com/Winds-Studio/Leaf)
-
-[![Github Actions Build](https://img.shields.io/github/actions/workflow/status/Winds-Studio/Leaf/build-1204.yml?&style=for-the-badge)](https://github.com/Winds-Studio/Leaf/releases)
-[![Discord](https://img.shields.io/discord/1145991395388162119?color=5865F2&label=discord&style=for-the-badge)](https://discord.gg/gfgAwdSEuM)
+ 
+[![Github Releases](https://img.shields.io/badge/Download-Releases-blue?&style=for-the-badge&colorA=19201a&colorB=298046)](https://github.com/Winds-Studio/Leaf/releases)⠀
+[![Github Actions Build](https://img.shields.io/github/actions/workflow/status/Winds-Studio/Leaf/build-1204.yml?&style=for-the-badge&colorA=19201a&colorB=298046)](https://github.com/Winds-Studio/Leaf/actions)⠀
+[![Discord](https://img.shields.io/discord/1145991395388162119?label=discord&style=for-the-badge&colorA=19201a&colorB=298046)](https://discord.gg/gfgAwdSEuM)
 
 <h5>Leaf是一款来自国人对 <a href="https://github.com/GaleMC/Gale">Gale</a> 进行fork的服务器核心版本，它删除了一些原版的检测并添加了相对不错的优化补丁，可能是目前最有潜力的优化服务器核心</h5>
 <h8>Logo图标来自 <a href="https://github.com/envizar">envizar</a></h8>
