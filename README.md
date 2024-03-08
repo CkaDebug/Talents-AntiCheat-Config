@@ -66,8 +66,8 @@
 [![Github Actions Build](https://img.shields.io/github/actions/workflow/status/Winds-Studio/Leaf/build-1204.yml?&style=for-the-badge)](https://github.com/Winds-Studio/Leaf/releases)
 [![Discord](https://img.shields.io/discord/1145991395388162119?color=5865F2&label=discord&style=for-the-badge)](https://discord.gg/gfgAwdSEuM)
 
-<h5>Leaf is a drop-in replacement designed for removing some checks, customized, and high-performance built on top of <a href="https://github.com/GaleMC/Gale">Gale</a> with optimization from other forks.</h5>
-<h8>Logo designed by <a href="https://github.com/envizar">envizar</a></h8>
+<h5>Leaf是一款来自国人对 <a href="https://github.com/GaleMC/Gale">Gale</a> 进行fork的服务器核心版本，它删除了一些原版的检测并添加了相对不错的优化补丁，可能是目前最有潜力的优化服务器核心</h5>
+<h8>Logo图标来自 <a href="https://github.com/envizar">envizar</a></h8>
 </div>
 
 
