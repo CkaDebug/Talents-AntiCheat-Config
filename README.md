@@ -19,7 +19,7 @@
 
 <div align="center">
   <div>
-    <img src="yizhan_logo.png width="230" alt="Yizhan" />
+    <img src="yizhan_logo.png" width="230" alt="Yizhan" />
   </div>
   <b>
     乐子Wiki
