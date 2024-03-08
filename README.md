@@ -169,6 +169,7 @@
 #### 翻阅我制作的[wiki](https://github.com/TalentsDX/Talents-anticheat-config/wiki)
 #### 了解各个反作弊的特点
 #### 以及我对它们的见解
+#### ⚠wiki已死⚠
 ---
 
 ### 🔧如何安装🔧
