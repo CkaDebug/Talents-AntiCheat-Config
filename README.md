@@ -5,7 +5,7 @@
 <img src="leaf_logo.png" alt="Leaf logo" align="right" width="200">
 <div align="center">
 
-## Leaf
+## [Leaf](https://github.com/Winds-Studio/Leaf)
 
 [![Github Actions Build](https://img.shields.io/github/actions/workflow/status/Winds-Studio/Leaf/build-1204.yml?&style=for-the-badge)](https://github.com/Winds-Studio/Leaf/releases)
 [![Discord](https://img.shields.io/discord/1145991395388162119?color=5865F2&label=discord&style=for-the-badge)](https://discord.gg/gfgAwdSEuM)
@@ -22,7 +22,7 @@
     <img src="yizhan_logo.png" width="230" alt="Yizhan" />
   </div>
   <b>
-    乐子Wiki
+    [乐子Wiki](https://github.com/postyizhan/lezi-wiki)
   </b>
   <div>
     <sup>集百处之乐，成一家之言</sup>
