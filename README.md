@@ -17,6 +17,20 @@
 
 ---
 
+<div align="center">
+  <div>
+    <img src="yizhan_logo" width="230" alt="Yizhan" />
+  </div>
+  <b>
+    乐子Wiki
+  </b>
+  <div>
+    <sup>集百处之乐，成一家之言</sup>
+  </div>
+</a>
+
+---
+
 # ⚠️前言 ⚠️
 
 > ## 现配置作者-CkaDebug
