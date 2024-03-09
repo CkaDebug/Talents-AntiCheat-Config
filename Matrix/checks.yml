@@ -175,6 +175,9 @@ move:
   allow_bpe_bridge: false
   #检测拥有合法飞行的玩家（应该
   check_flying_players: true
+  #检测玩家打开背包移动
+  check_inventory_move: true
+  
 
   force_setback_situations:
     high_jump: true
