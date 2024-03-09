@@ -62,7 +62,7 @@ Phase:
   decay: 0.005
 
 AirLiquidPlace:
-  cancelvl: 10
+  cancelvl: 0
 
 FabricatedPlace:
   cancelvl: 5
@@ -79,7 +79,7 @@ RotationPlace:
 # Prediction-based NoSlow 检查
 # 在这里解释错误的服务器代码......即使在发送垃圾数据包时右键单击和副手按钮也很分辨
 # 比其他反作弊更稳定，但请报告任何错误......我在这里修复了大量的代码问题。
-NoSlow:
+NoSlowA:
   # 有多少偏移量是作弊
   # 标志 0.03-0.2 与 NoSlow 一致
   threshold: 0.001
@@ -89,11 +89,19 @@ NoSlow:
   decay: 0.05
 
 Knockback:
-  # 有多少反击退是“作弊”
-  # 默认情况下这是 1e-5，这是安全和理智的
-  # 以正确移动的块为单位测量
+  # 当玩家合法时，我们应该将总优势乘以多少
+  setback-decay-multiplier: 0.999
+  # 我们应该为玩家的移动创建多大的偏移量？
+  # 从可能的移动中以方块为单位测量
   threshold: 0.001
-  setbackvl: 3
+  # 在玩家受到回弹之前，1 ticks 的违规行为有多大？
+  # -1 关闭
+  immediate-setback-threshold: 0.1
+  # 在我们开始遭遇回弹之前，我们的优势有多大?
+  # -1 关闭
+  max-advantage: 1
+  # 这是为了防止玩家收集过多的违规行为，并且永远无法清除所有的违规行为
+  max-ceiling: 4
 
 Explosion:
   threshold: 0.001
@@ -123,7 +131,7 @@ Reach:
   #
   # 在 1.9-1.18.1（不是 1.18.2）或某些客户端/服务器组合中存在 0.03 距离的增加，因为
   # 协议更改和限制。 对于 1.8 服务器上的 1.7/1.8 客户端，此检查功能最为强大。
-  threshold: 0.0044
+  threshold: 0.0005
   # 我们应该取消我们知道不可能的命中吗？
   # 3.00-3.03 命中可能会通过，但仍会被标记，因为数据包顺序限制
   block-impossible-hits: true
@@ -136,6 +144,12 @@ Reach:
   # 除非你是专注于 1.8 PvP 的服务器，否则不建议使用这个额外的数据包
   enable-post-packet: false
 
+exploit:
+  allow-sprint-jumping-when-using-elytra: true
+  # 该选项可在发生鬼块时重新同步玩家，从而减轻玩家在鬼块上的位置。
+  allow-building-on-ghostblocks: true
+  distance-to-check-if-ghostblocks: 2
+
 # 启用在加入时注入 netty 的日志插件以调试兼容性问题
 debug-pipeline-on-join: false
 
@@ -144,6 +158,6 @@ experimental-checks: true
 
 # Grim有时会取消非法的数据包，比如用timer，在一秒钟内取消了数个数据包后，我们应该踢掉这个玩家？
 # 我们认为是应该的，因为有些数据包限制器并不计算被Grim取消的数据包。
-packet-spam-threshold: 350
+packet-spam-threshold: 250
 
 config-version: 8
