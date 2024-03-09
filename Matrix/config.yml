@@ -1,7 +1,7 @@
 check_update: true
 
 #填写你的Token以激活matrix
-access_token: '填写token'
+access_token: "填写token"
 
 permission_refresh_interval: 60
 
@@ -12,7 +12,7 @@ kick_strike_lightning: true
 
 discord_webhook:
   enable: false
-  url: ''
+  url: ""
 
 tps_protection:
   enable: true
@@ -36,10 +36,10 @@ disable_bypass_permission: true
 relog_time: 0
 #disabled_components似乎已被弃用
 disabled_components:
-  - 'example entry'
+  - "example entry"
 
 custom_vl_weight:
-  - 'bp.timer:2'
-  - 'move.invmove:1'
-  - 'move.vert:5'
-  - 'move.hor:1'
+  - "bp.timer:2"
+  - "move.invmove:1"
+  - "move.vert:5"
+  - "move.hor:1"

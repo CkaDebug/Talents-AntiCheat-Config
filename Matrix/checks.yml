@@ -179,7 +179,7 @@ move:
   force_setback_situations:
     high_jump: true
     ground_spoof_jump: true
-    bad_jumps: false
+    bad_jumps: true
     air_accel: true
     air_mdf: true
     step: true
