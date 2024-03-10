@@ -17,7 +17,7 @@ discord_webhook:
 tps_protection:
   enable: true
 
-  min_tps: 17.0
+  min_tps: 18.0
 
   lag_threshold: 10000
 

@@ -167,6 +167,8 @@ move:
   enable: true
 
   check_noslow: true
+  
+  check_nofall: true
 
   cancel_vl: 40
 
@@ -175,10 +177,10 @@ move:
   allow_bpe_bridge: false
   #检测拥有合法飞行的玩家（应该
   check_flying_players: true
-  #检测玩家打开背包移动
+  #检测玩家打开背包后依然可以进行移动
   check_inventory_move: true
   
-
+  #此选项不可用，功能已经删除
   force_setback_situations:
     high_jump: true
     ground_spoof_jump: true
