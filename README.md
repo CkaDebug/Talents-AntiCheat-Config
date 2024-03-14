@@ -1,7 +1,7 @@
 
 # ⚠️前言 ⚠️
 
-[English]()
+[English](https://github.com/CkaDebug/Talents-AntiCheat-Config/blob/main/English-config/en-readme.mdhttps://github.com/CkaDebug/Talents-AntiCheat-Config/blob/main/English-config/en-readme.md)
 
 > ## 现配置作者-CkaDebug
 >
