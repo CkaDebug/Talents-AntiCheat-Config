@@ -1,34 +1,3 @@
-## 🎶稍等一下🎶
-
-### 在此之前，请先看看我向您推荐的优秀项目
-
-<img src="leaf_banner.png" alt="Leaf">
-<div align="center">
- 
-[![Github Releases](https://img.shields.io/badge/Download-Releases-blue?&style=for-the-badge&colorA=19201a&colorB=298046)](https://github.com/Winds-Studio/Leaf/releases)⠀
-[![Github Actions Build](https://img.shields.io/github/actions/workflow/status/Winds-Studio/Leaf/build-1204.yml?&style=for-the-badge&colorA=19201a&colorB=298046)](https://github.com/Winds-Studio/Leaf/actions)⠀
-[![Discord](https://img.shields.io/discord/1145991395388162119?label=discord&style=for-the-badge&colorA=19201a&colorB=298046)](https://discord.gg/gfgAwdSEuM)
-
-<h5>Leaf是一款来自国人对 <a href="https://github.com/GaleMC/Gale">Gale</a> 进行fork的服务器核心版本，它删除了一些原版的检测并添加了相对不错的优化补丁，可能是目前最有潜力的优化服务器核心</h5>
-<h8>Logo图标来自 <a href="https://github.com/envizar">envizar</a></h8>
-</div>
-
-
----
-
-<div align="center">
-  <div>
-    <img src="yizhan_logo.png" width="230" alt="Yizhan" />
-  </div>
-  <b>
-    [乐子Wiki](https://github.com/postyizhan/lezi-wiki)
-  </b>
-  <div>
-    <sup>集百处之乐，成一家之言</sup>
-  </div>
-</a>
-
----
 
 # ⚠️前言 ⚠️
 
@@ -102,9 +71,7 @@
 
 ##### [更新日志](https://github.com/CkaDebug/Talents-anticheat-config/blob/main/.github/update-log.md)
 
-##### 测试服地址：test.breeze.asia(1.8.9)
-
-#### 感谢Dreeam-qwq大佬提供
+##### MineBBS介绍页:[点击转跳](https://www.minebbs.com/resources/talents-anticheat-config.7557/)
 
 ---
 
@@ -114,7 +81,7 @@
  
 - 针对不同玩法服务器定制
 - 近乎99%汉化的警报消息 
-- 提升反作弊检测速度 
+- 提升反作弊检测速度
 - 减少反作弊误判
 - 独特的参数调配
 - 完全免费
@@ -144,17 +111,17 @@
 最终，你仍然需要这些反作弊插件来使用配置
 
 - [Matrix](https://matrix.rip) 
-- [NocheatPlus](https://github.com/Updated-NoCheatPlus/NoCheatPlus)
+- [NocheatPlus](https://github.com/Updated-NoCheatPlus/NoCheatPlus) 
 - [NocheatPlus-Dreeam](https://github.com/Winds-Studio/NoCheatPlus)(性能优化版本)
-- [GrimAC](https://grim.ac)
-- [AntiAura](https://www.spigotmc.org/resources/antiaura-%C2%BB-reliable-cheat-detection-%C2%BB-anti-cheat-plugin.1368/update?update=16048)
+- [GrimAC](https://grim.ac) 
+- [AntiAura](https://www.spigotmc.org/resources/antiaura-%C2%BB-reliable-cheat-detection-%C2%BB-anti-cheat-plugin.1368/update?update=16048) 
 - [Vulcan](https://www.spigotmc.org/resources/vulcan-anti-cheat-advanced-cheat-detection-1-7-1-19.83626/) *不推荐*
-- [SoaromaSAC](https://www.spigotmc.org/resources/soaromasac-lightweight-cheat-detection-system-for-java-bedrock.87702/) 
-- [Themis](https://www.spigotmc.org/resources/themis-anti-cheat-1-17-1-18-1-19-bedrock-support-paper-compatibility-free-optimized.90766/)
-- [Hawk](https://github.com/HawkAnticheat/Hawk)
-- [Foxaddition](https://www.spigotmc.org/resources/foxaddition-anti-cheat-1-7-2-1-20-4-geyser-support.111260/)
+- [SoaromaSAC](https://www.spigotmc.org/resources/soaromasac-lightweight-cheat-detection-system-for-java-bedrock.87702/)  
+- [Themis](https://www.spigotmc.org/resources/themis-anti-cheat-1-17-1-18-1-19-bedrock-support-paper-compatibility-free-optimized.90766/) 
+- [Hawk](https://github.com/HawkAnticheat/Hawk) 
+- [Foxaddition](https://www.spigotmc.org/resources/foxaddition-anti-cheat-1-7-2-1-20-4-geyser-support.111260/) 
  ### 一些我会去配置但是我不保证它稳定性的反作弊配置
- （永远避免使用被作者抛弃的反作弊，因为它们只能检测远古特征且没有维护）
+ （永远避免使用被作者抛弃的反作弊，因为它们只能检测远古特征且没有新的维护）
 - [AAC](https://www.spigotmc.org/resources/aac-advanced-anti-cheat-hack-kill-aura-blocker.6442)
 - [TakaAC](https://www.spigotmc.org/resources/taka-anticheat-takaac-cheap-and-reliable-solution.45167/) 
 - [Horizon](https://www.spigotmc.org/resources/horizon-powerful-cheat-detection-in-new-era-1-8-1-12-1-13-1-14.65830/) 
@@ -212,3 +179,34 @@
 
 ---
 
+## 🎶稍等一下🎶
+
+### 在离开之前，请先看看我向您推荐的优秀项目!!
+
+<img src="leaf_banner.png" alt="Leaf">
+<div align="center">
+ 
+[![Github Releases](https://img.shields.io/badge/Download-Releases-blue?&style=for-the-badge&colorA=19201a&colorB=298046)](https://github.com/Winds-Studio/Leaf/releases)⠀
+[![Github Actions Build](https://img.shields.io/github/actions/workflow/status/Winds-Studio/Leaf/build-1204.yml?&style=for-the-badge&colorA=19201a&colorB=298046)](https://github.com/Winds-Studio/Leaf/actions)⠀
+[![Discord](https://img.shields.io/discord/1145991395388162119?label=discord&style=for-the-badge&colorA=19201a&colorB=298046)](https://discord.gg/gfgAwdSEuM)
+
+<h5>Leaf是一款来自国人对 <a href="https://github.com/GaleMC/Gale">Gale</a> 进行fork的服务器核心版本，它删除了一些原版的检测并添加了相对不错的优化补丁，可能是目前最有潜力的优化服务器核心</h5>
+<h8>Logo图标来自 <a href="https://github.com/envizar">envizar</a></h8>
+</div>
+
+
+---
+
+<div align="center">
+  <div>
+    <img src="yizhan_logo.png" width="230" alt="Yizhan" />
+  </div>
+  <b>
+    [乐子Wiki](https://github.com/postyizhan/lezi-wiki)
+  </b>
+  <div>
+    <sup>集百处之乐，成一家之言</sup>
+  </div>
+</a>
+
+---
